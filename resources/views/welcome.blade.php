@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="{{mix('css/app.css')}}"/>
 </head>
 <body>
-
-
 <!-- Sidebar Menu -->
 <div class="ui vertical inverted sidebar menu">
     <a class="active item">Home</a>
@@ -19,7 +17,6 @@
     <a class="item">Login</a>
     <a class="item">Signup</a>
 </div>
-
 <!-- Page Contents -->
 <div class="pusher">
     <div class="ui masthead bg2 center aligned segment" style="background-position: 40% 100%">
@@ -43,8 +40,6 @@
                 </div>
             </div>
         </div>
-
-
         <div id="top_menu" class="ui large secondary inverted menu">
             <div class="ui container">
                 <a class="toc item">
@@ -60,7 +55,6 @@
                 </div>
             </div>
         </div>
-
         <div class="ui text container">
             <h1 class="ui inverted header">
                 Imagine-a-Company
@@ -68,9 +62,7 @@
             <h2>Do whatever you want when you want to.</h2>
             <div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>
         </div>
-
     </div>
-
     <div class="ui vertical stripe segment">
         <div class="ui middle aligned stackable grid container">
             <div class="row">
@@ -132,11 +124,11 @@
         </div>
     </div>
     <div class="ui search">
-      <div class="ui icon input">
-        <input class="prompt" type="text" placeholder="Common passwords...">
-        <i class="search icon"></i>
-      </div>
-      <div class="results"></div>
+        <div class="ui icon input">
+            <input class="prompt" type="text" placeholder="Common passwords...">
+            <i class="search icon"></i>
+        </div>
+        <div class="results"></div>
     </div>
 
 
@@ -171,42 +163,42 @@
 </div>
 <script src="{{mix('js/app.js')}}"></script>
 <script type="text/javascript">
-  var content = [
-  { title: 'Andorra' },
-  { title: 'United Arab Emirates' },
-  { title: 'Afghanistan' },
-  { title: 'Antigua' },
-  { title: 'Anguilla' },
-  { title: 'Albania' },
-  { title: 'Armenia' },
-  { title: 'Netherlands Antilles' },
-  { title: 'Angola' },
-  { title: 'Argentina' },
-  { title: 'American Samoa' },
-  { title: 'Austria' },
-  { title: 'Australia' },
-  { title: 'Aruba' },
-  { title: 'Aland Islands' },
-  { title: 'Azerbaijan' },
-  { title: 'Bosnia' },
-  { title: 'Barbados' },
-  { title: 'Bangladesh' },
-  { title: 'Belgium' },
-  { title: 'Burkina Faso' },
-  { title: 'Bulgaria' },
-  { title: 'Bahrain' },
-  { title: 'Burundi' }
-  // etc
-];
+    var content = [
+        {title: 'Andorra'},
+        {title: 'United Arab Emirates'},
+        {title: 'Afghanistan'},
+        {title: 'Antigua'},
+        {title: 'Anguilla'},
+        {title: 'Albania'},
+        {title: 'Armenia'},
+        {title: 'Netherlands Antilles'},
+        {title: 'Angola'},
+        {title: 'Argentina'},
+        {title: 'American Samoa'},
+        {title: 'Austria'},
+        {title: 'Australia'},
+        {title: 'Aruba'},
+        {title: 'Aland Islands'},
+        {title: 'Azerbaijan'},
+        {title: 'Bosnia'},
+        {title: 'Barbados'},
+        {title: 'Bangladesh'},
+        {title: 'Belgium'},
+        {title: 'Burkina Faso'},
+        {title: 'Bulgaria'},
+        {title: 'Bahrain'},
+        {title: 'Burundi'}
+        // etc
+    ];
     $('.ui.search')
- .search({
-   source : content,
-   searchFields   : [
-     'title'
-   ],
-   searchFullText: false
- })
-;
+        .search({
+            source: content,
+            searchFields: [
+                'title'
+            ],
+            searchFullText: false
+        })
+    ;
 </script>
 </body>
 </html>

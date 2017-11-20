@@ -23,5 +23,8 @@
     "vue-template-compiler": "2.1.*",
     "semantic-ui": "2.2.10",
     "optipng-bin": "3.1.4"
+  },
+  "dependencies": {
+    "semantic-ui-input": "^2.2.12"
   }
 }
